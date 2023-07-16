@@ -1,0 +1,528 @@
+body{
+  background-color:rgba(247,247,247,255);
+}
+a{text-transform: uppercase;
+font-size: smaller;}
+c{
+  text-transform: uppercase;
+  color:white;
+  margin-top: -2px;
+}
+li{
+  list-style-type: none;
+}
+
+  
+
+.header{
+  background-color:white;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  margin-left: 375px;
+  padding: 4px;
+  width: 810px;
+}
+.paint{
+  width: 23px;
+  margin-left: 10px;
+  
+}
+.dashboard{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 45px;
+}
+  
+
+.global{
+  width: 25px;
+  margin-left: 10px;
+}    
+  
+
+select{
+  border-color: white;
+  
+  
+}
+.search{
+  
+  width:25px;
+  margin-left: 10px;
+}
+.right_header{
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+  
+}
+.account{
+  margin-left: 12px;
+
+}
+.header_mobile{
+  display: none;
+}
+.content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+
+
+.form1{
+  display:grid;
+  background-color:rgba(255,255,255,255);
+  border-radius: 10px ;
+  padding: 5px;
+  padding-left:10px ;
+  margin-right:20px ;
+}
+.company_input{
+  border-radius: 4px;
+  border-color:lightgrey;
+  width:169px;
+  font-size: smaller;
+  padding: 5px;
+}
+.user_input{
+  border-radius: 4px;
+  border-color:lightgrey;
+  width:100px ;font-size: smaller;
+  padding: 5px;
+}
+.email_input{
+  border-radius: 4px;
+  border-color:lightgrey;
+  width:125px ;
+  font-size: smaller;
+  padding: 5px;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 25px;
+}
+.column{
+  display:flex;
+  flex-direction: column;
+  margin-right: 10px;
+
+}
+.first_input{
+  border-radius: 4px;
+  border-color:lightgrey;
+  font-size: smaller;
+  width: 209px;
+  padding: 5px;
+}
+.address_input{
+  border-radius: 4px;
+  border-color:lightgrey;
+  font-size: smaller;
+  width: 442px;
+  padding: 5px;
+}
+.city_input{
+  border-radius: 4px;
+  border-color:lightgrey;
+  font-size: smaller;
+  width: 133px;
+  padding: 5px;
+}
+.about_input{
+  border-radius: 4px;
+  border-color:lightgrey;
+  font-size:larger;
+  width: 450px;
+  height:17px;
+  padding: 5px;
+}
+
+.update{
+  background-color:rgba(33,197,234,255);
+  padding: 8px;
+  margin: 5px;
+  width: 100px;
+  color: beige;
+  font-size: small;
+  border: 1px solid rgb(145, 144, 144);
+border-radius: 4px;
+margin-top: 12px;
+margin-left: 363px;
+}
+.form2{
+  display: grid;
+  background-color: rgba(255,255,255,255);
+  border-radius: 4px ;
+  padding:5px ;
+  margin-right: 20px;
+  width: 237px;
+  position: relative;
+height:320px;
+margin-top: 20px;
+}
+
+
+
+.background{
+  background-image: url("../public/images/background.jpeg");
+  width: 245px;
+height: 93px;
+
+  
+}
+.profile {
+  position: absolute;
+  border-radius: 50%;
+  border: 4px solid white;
+  width: 100px;
+  left: 73px;
+  top: 30px;
+}
+.overview {
+  
+  margin-left: 73px;
+  margin-top: 75px;
+}
+name{
+  color: aqua;
+  
+  
+}
+.id{
+opacity: 0.5;
+}
+pre {
+  margin-left: 35px;
+  font-style: normal;
+  
+}
+.hr1 {
+  width: 204px;
+  color: gray;
+
+  margin-left: 21px;
+}
+.icon{
+  display: flex;
+  flex-direction: row;
+  
+  
+}
+.facebook{
+  width:14px;
+  margin-right: 12px;
+  
+}
+.twitter{
+  width: 14px;
+  margin-right: 12px;
+}
+.google{
+  width: 14px;
+  margin-right: 12px;
+}
+.navigation{
+  display: grid;
+  width: 226px;
+  height: 595px;
+  background-color:rgba(40,40,40,255);
+  margin-right: 50px;
+  margin-top: -39px;
+  background-image: url("../public/images/moon.jpg");
+  background-repeat: no-repeat;
+  background-size: 225px 455px;
+  margin-top:15px;
+}
+button{
+  background-color: transparent;
+  border:0px;
+}
+.menu{
+  display: grid;
+  width:175px;
+  height: 379px;
+  color:white;
+
+
+}
+
+.dash_icon{
+  margin-bottom: -6px;
+  margin-left: -9px;
+  margin-right: 20px;
+  width: 21px;
+  
+  
+}
+.vae
+{
+  width:30px;
+  border-radius: 50px;
+  margin-right: 7px;
+  margin-left:-8px ;
+  margin-bottom: -9px;
+
+}
+.hr2{
+width:174px;
+margin-left:-17px;
+margin-top: -19px;
+color: gray;
+}
+.active{
+background-color: rgba(91,91,91,255);
+}
+
+
+.main{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+}
+
+.footer{
+  
+  display:flex;
+  flex-direction: row;
+  background-color:rgba(255,255,255,255);
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 384px;
+  margin-top: -31px;
+  padding: 5px;
+  width: 810px;
+  font-size: small;
+}
+d{
+  color: aqua;
+}
+.heart
+{
+  width: 35px;
+  margin-bottom: -7px;
+}
+.settings{
+  position: absolute;
+
+  top:139px;
+  right: 156px;
+  width:30px;
+}
+
+
+@media  screen and  (max-width:393px)
+{
+  .header_mobile{
+      background-color:white;
+      
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; 
+  
+      padding: 4px;
+      width: 375px;
+      margin-left: -7px;
+  }
+  .menu_mobile{
+      width: 20px;
+  }
+  .header{
+      display: none;
+  }
+  
+  .content{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 30px;
+      
+      
+  } 
+  .form1{
+      display:grid;
+      background-color:rgba(255,255,255,255);
+      border-radius: 10px ;
+      padding: 5px;
+      padding-left:10px ;
+      
+      width:370px;
+      margin-left: 19px
+  }
+  .row{
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 25px;
+  }
+  .column{
+      display:flex;
+      flex-direction: column;
+  
+      margin-bottom: 10px ;
+  }
+  
+  .company_input{
+      border-radius: 4px;
+      border-color:lightgrey;
+      width:343px;
+      font-size: smaller;
+      padding: 5px;
+  }
+  .user_input{
+      border-radius: 4px;
+      border-color:lightgrey;
+      width:344px ;font-size: smaller;
+      padding: 5px;
+  }
+  .email_input{
+      border-radius: 4px;
+      border-color:lightgrey;
+      width:344px ;
+      font-size: smaller;
+      padding: 5px;}
+
+      .first_input{
+          border-radius: 4px;
+          border-color:lightgrey;
+          font-size: smaller;
+          width: 344px;
+          padding: 5px;
+      }
+      .address_input{
+          border-radius: 4px;
+          border-color:lightgrey;
+          font-size: smaller;
+          width: 344px;
+          padding: 5px;
+      }
+      .city_input{
+          border-radius: 4px;
+          border-color:lightgrey;
+          font-size: smaller;
+          width: 344px;
+          padding: 5px;
+      }
+      .about_input{
+          border-radius: 4px;
+          border-color:lightgrey;
+          
+          width: 343px;
+          height:17px;
+          padding: 5px;
+      }
+      
+      .update{
+          background-color:rgba(33,197,234,255);
+          padding: 8px;
+          margin: 5px;
+          width: 100px;
+          color: beige;
+          font-size: small;
+          border: 1px solid rgb(145, 144, 144);
+        border-radius: 4px;
+        margin-top: 12px;
+        margin-left: 257px;
+      }
+      .form2{
+          display: grid;
+          background-color: rgba(255,255,255,255);
+          border-radius: 4px ;
+          padding:5px ;
+          margin-left: 19px;
+          width: 374px;
+          position: relative;
+          margin-top: 10px;
+          height: 400px;
+      }
+      .background {
+          background-image: url("../public/images/background.jpeg");
+          size: 50px;
+          width: 383px;
+          height: 93px;
+          border-radius: 4px;
+          margin-left: -4px;
+          margin-top: -5px;
+      }
+      .profile {
+          position: absolute;
+          border-radius: 50%;
+          border: 4px solid white;
+          width: 100px;
+          left: 137px;
+          top: 30px;
+      }
+          .overview {
+            
+              margin-left: 138px;
+          }
+          pre {
+              margin-left: 120px;
+              font-style: normal;
+          }
+          .hr1 {
+              width: 303px;
+              color: gray;
+              
+              margin-left: 37px;
+            
+          }
+          .facebook{
+            width:14px;
+            margin-right: 12px;
+            margin-left:30px;
+            
+          }
+          .twitter{
+            width: 14px;
+            margin-right: 12px;
+          }
+          .google{
+            width: 14px;
+            margin-right: 12px;
+          }
+          
+          .settings{
+              position: absolute;
+          
+              top:139px;
+              right: 4px;
+              width:30px;
+          }
+          .footer{
+              display:flex;
+              flex-direction: column;
+              background-color:rgba(255,255,255,255);
+              
+              justify-content: space-between;
+              margin-left: -2px;
+              margin-top: 9px;
+              padding: 5px;
+              width: 370px;
+              font-size: small;
+              align-items: flex-start;
+          }
+          .navigation{
+              display: none;
+              width: 226px;
+              height: 595px;
+              background-color:rgba(40,40,40,255);
+              margin-right: 50px;
+              margin-top: -39px;
+              
+              background-repeat: no-repeat;
+              background-size: 225px 455px;
+          }
+          
+          
+          
+          
+      }
+      
+  
+  

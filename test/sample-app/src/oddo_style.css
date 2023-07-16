@@ -1,0 +1,105 @@
+.form{
+    margin-top:100px;
+    margin-left:450px;
+    margin-bottom: 0px;
+    padding: 30px ; 
+    background-color: whitesmoke;
+    width: 350px;
+    text-align: center;
+}
+#registor {
+    background-color:#00c5e7;
+    padding: 5px;
+    margin: 5px;
+    width: 70%;
+    color: beige;
+    font-size: medium;
+  }
+  .body{
+    width: 100%;
+    background-image:url("../public/images/wave.jpg");
+     background-size: 1350px 400px;
+     background-repeat: no-repeat;
+}
+  input{
+    width:70%;
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    border-bottom:1px solid lightgrey;
+    background-color: transparent;
+}
+    .checkbox{
+       
+        width:50%;
+        text-align: left !important;
+        margin: right 20px;
+    
+
+        
+    }
+    #facebook {
+        background-color:#4665a8;
+        padding: 7px;
+        margin: 7px;
+        width: 30%;
+        color: beige;
+        font-size: medium;
+    }
+    
+    #twitter {
+        background-color:#30c8fa;
+        padding: 5px;
+        margin: 5px;
+        width: 25%;
+        color: beige;
+        font-size: medium;
+    }
+    #google {
+      
+        background-color:#dd4337;
+        padding: 5px;
+        margin: 5px;
+        width: 25%;
+        color: beige;
+        font-size: medium;
+    }
+    .ic{
+        position: relative;
+    }
+    .pr{
+        position: absolute;
+        bottom:2px;
+        right: 55px;
+        width: 30px;
+    
+        
+    }
+    .io{
+        position: relative;
+    }
+    .em{
+        position: absolute;
+        bottom: 2px;
+        right: 55px;
+        width: 25px;}
+        .in{
+            position: relative;
+        }
+        .ps{
+            position: absolute;
+            bottom: 2px;
+            right: 55px;
+            width: 25px;}
+    
+    div.line{
+        position: relative;}
+        div.lo{
+            position:absolute;
+            top: -8px;
+            right: 140px;
+            background-color: whitesmoke;
+        }
+        hr{
+            color: lightgrey;
+        }
